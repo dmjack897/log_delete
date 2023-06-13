@@ -3,7 +3,7 @@
 LOG="/home/groonga_suggest/suggest_log_delete/logs"
 LOGFILE="${LOG}/`basename $0`_`date "+%Y%m%d%H%M"`.log"
 Necessary_OPT=false
-#옵션 설정
+#옵션설정
 Action_Select() {
     while getopts ":l:rdh:" opts; do
         case ${opts} in
